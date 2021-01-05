@@ -1,0 +1,17 @@
+{
+	"DefaultValues": {
+
+		"free_enable":true, 
+		"limit_start_level":10, 
+		"AB_test_users": 100
+	},
+	"ABtests": {
+		"1.0.0Ref": {
+			"panel_size": 10
+		},
+		"1.0.0A": {
+			"panel_size": 10,
+			"limit_start_level":1, 
+		},
+	}
+}
